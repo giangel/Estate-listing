@@ -20,7 +20,7 @@
           <i class="bi bi-house-lock"></i> Landlord Portal
         </div>
         <nav class="d-flex flex-column gap-1">
-          <a href="<%= ctx %>/landlord/landlord-dashboard.jsp"
+          <a href="<%= ctx %>/landlord/dashboard"
              class="re-sidebar-link active" style="color:var(--re-primary)">
             <i class="bi bi-speedometer2"></i> Dashboard
           </a>

@@ -19,7 +19,7 @@
           <i class="bi bi-briefcase"></i> Agent Portal
         </div>
         <nav class="d-flex flex-column gap-1">
-          <a href="<%= ctx %>/agent/agent-dashboard.jsp"
+          <a href="<%= ctx %>/agent/dashboard"
              class="re-sidebar-link active"
              style="color:var(--re-primary)">
             <i class="bi bi-speedometer2"></i> Dashboard

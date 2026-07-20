@@ -93,7 +93,7 @@
               </li>
               <% } else if ("LANDLORD".equals(userRole)) { %>
               <li>
-                <a class="dropdown-item" href="${pageContext.request.contextPath}/landlord/landlord-dashboard.jsp">
+                <a class="dropdown-item" href="${pageContext.request.contextPath}/landlord/dashboard">
                   <i class="bi bi-speedometer2 me-2 text-primary"></i> My Dashboard
                 </a>
               </li>
@@ -104,13 +104,13 @@
               </li>
               <% } else if ("AGENT".equals(userRole)) { %>
               <li>
-                <a class="dropdown-item" href="${pageContext.request.contextPath}/agent/agent-dashboard.jsp">
+                <a class="dropdown-item" href="${pageContext.request.contextPath}/agent/dashboard">
                   <i class="bi bi-speedometer2 me-2 text-primary"></i> Agent Dashboard
                 </a>
               </li>
               <% } else { %>
               <li>
-                <a class="dropdown-item" href="${pageContext.request.contextPath}/user/dashboard.jsp">
+                <a class="dropdown-item" href="${pageContext.request.contextPath}/user/dashboard">
                   <i class="bi bi-speedometer2 me-2 text-primary"></i> My Dashboard
                 </a>
               </li>

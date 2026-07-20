@@ -1,0 +1,59 @@
+/* ================================================================
+   AOPE REAL ESTATE - DARK MODE STYLESHEET
+   Applied by toggling disabled attribute on the link element
+   ================================================================ */
+
+body.dark-mode {
+  --re-white     : #1e2a3a;
+  --re-gray-100  : #151f2b;
+  --re-gray-200  : #2a3a4e;
+  --re-gray-500  : #8899aa;
+  --re-gray-700  : #b0c0d0;
+  --re-gray-900  : #dce8f0;
+  --re-dark      : #0d1520;
+
+  background-color: #0f1923;
+  color: #dce8f0;
+}
+
+body.dark-mode .re-navbar {
+  background: #1a2535;
+  border-bottom-color: #2a3a4e;
+}
+
+body.dark-mode .re-navbar .nav-link {
+  color: #b0c0d0 !important;
+}
+
+body.dark-mode .re-navbar .nav-link:hover {
+  background-color: rgba(255,255,255,0.06) !important;
+  color: #dce8f0 !important;
+}
+
+body.dark-mode .property-card,
+body.dark-mode .filter-sidebar,
+body.dark-mode .contact-card,
+body.dark-mode .testimonial-card,
+body.dark-mode .re-search-box,
+body.dark-mode .results-toolbar {
+  background: #1a2535;
+  border-color: #2a3a4e;
+  color: #dce8f0;
+}
+
+body.dark-mode .re-form-control,
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+  background: #151f2b;
+  border-color: #2a3a4e;
+  color: #dce8f0;
+}
+
+body.dark-mode .property-card .card-title-link { color: #90c0e0; }
+body.dark-mode .category-card { background: #1a2535; border-color: #2a3a4e; color: #dce8f0; }
+body.dark-mode .area-card { background: #1a2535; border-color: #2a3a4e; }
+body.dark-mode .re-page-btn { background: #1a2535; border-color: #2a3a4e; color: #b0c0d0; }
+body.dark-mode .re-footer { background: #080e18; }
+
+body.dark-mode h1, body.dark-mode h2,
+body.dark-mode h3, body.dark-mode h4 { color: #90c0e0; }

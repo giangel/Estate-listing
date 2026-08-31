@@ -1,6 +1,4 @@
-`README.md`.
 
-markdown
 # Estate Listing System
 
 A full-featured real estate listing web application built with **Java (Jakarta Servlets + JSP)** and **PostgreSQL**. It supports multiple user roles - Admin, Agent, Landlord, and regular Users - and includes property listings, roommate matching, appointments, inquiries, reviews, wishlists, notifications, fraud reporting, and audit logging.

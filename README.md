@@ -46,7 +46,7 @@ git clone https://github.com/giangel/Estate-listing.git
 
 ### 2. Import the project into Eclipse
 1. Open Eclipse.
-2. Go to **File → Import → Maven → Existing Maven Projects**.
+2. Go to **File -> Import -> Maven -> Existing Maven Projects**.
 3. Click **Next**, then **Browse** and select the cloned `Estate-listing` (or `estate`) folder.
 4. Make sure the `pom.xml` is checked, then click **Finish**.
 5. Eclipse will import the project and download the Maven dependencies (PostgreSQL driver, JSTL, jBCrypt, Servlet API).
@@ -71,7 +71,7 @@ git clone https://github.com/giangel/Estate-listing.git
    export DB_USER=postgres
    export DB_PASSWORD=your_password
    ```
-   In Eclipse, you can also set these under your server's **Run Configuration → Environment** tab so Tomcat picks them up at launch.
+   In Eclipse, you can also set these under your server's **Run Configuration -> Environment** tab so Tomcat picks them up at launch.
 
 ### 4. Add a Tomcat server to Eclipse
 1. Go to **Window -> Show View -> Servers**.
@@ -80,9 +80,9 @@ git clone https://github.com/giangel/Estate-listing.git
 4. Browse to your local Tomcat 10.1 installation directory, click **Finish**.
 
 ### 5. Deploy the project to the server
-1. In the Servers view, right-click your Tomcat server → **Add and Remove...**
+1. In the Servers view, right-click your Tomcat server -> **Add and Remove...**
 2. Move **estate** (the project) from *Available* to *Configured*, click **Finish**.
-3. Right-click the server → **Start** (or **Debug**, if you want to debug).
+3. Right-click the server -> **Start** (or **Debug**, if you want to debug).
 
 ### 6. Access the application
 Once Tomcat starts successfully, open your browser and go to:
